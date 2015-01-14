@@ -17,8 +17,8 @@ Some easy properties to change:
 
 Some other valid RSS properties you can add are listed in the [RSS Specification](http://www.rssboard.org/rss-specification). For example, sub-elements of `channel` include:
 
-* Site lasted updated date (`&lt;pubDate&gt;{{ site.time }}&lt;/pubdate&gt;`)
-* Site owner (`&lt;webMaster&gt;you@example.com (Your Name)&lt;webMaster&gt;`)
+* Site lasted updated date (`<pubDate>{{ site.time }}</pubdate>`)
+* Site owner (`<webMaster>you@example.com (Your Name)<webMaster>`)
 * Site image (see RSS specification)
 
 You can also remove any properties, except:
